@@ -1,0 +1,80 @@
+
+
+
+<div class='dodd'>
+    <div class='do' id="hi">ervked</div>
+    <div class='g' id="gi"><div class="gg"></div></div>
+    </div>
+
+<style>
+.g {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+}
+.g:hover .gg {
+    border: 1px solid red;
+}
+.gg {
+    border: 1px solid #ddd;
+    width: 100%;
+    border-radius: 70px;
+}
+#gi {
+    grid-column: 5 / 7;
+    grid-row: 3 / 5;
+}
+
+
+
+
+
+
+
+.dodd {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    display: grid;
+    grid-template-columns: repeat(50, 5px);
+    grid-template-rows: repeat(50, 5px);
+    gap: 20px;
+    position: absolute;
+    padding: 20px;
+}
+.do {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: #f8f8f8 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    z-index: 1;
+}
+</style>
+
+<div class='fibrr'>
+<div class='fib'></div>
+</div>
+<style>
+    body {
+    margin: 0;
+}
+.fibrr {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 0px 0px 20px;
+    box-sizing: border-box;
+}
+.fib {
+    width: 100%;
+    background: url(Untitled.svg);
+}
+#hi {
+    grid-column: 2 / 6;
+    grid-row: 2 / 6;
+}
+</style>
